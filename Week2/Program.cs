@@ -1,2 +1,3 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, Week2");
+Console.WriteLine("Sisesta oma sugu m/n:");
+
