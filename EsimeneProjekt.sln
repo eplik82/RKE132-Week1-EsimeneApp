@@ -5,7 +5,9 @@ VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsimeneProjekt", "EsimeneProjekt\EsimeneProjekt.csproj", "{A0EA99DA-3CF6-4D0C-8B42-685C2D69E43E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week2", "Week2\Week2.csproj", "{6181F8AA-D364-45CA-BEB2-60971BB60C6F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week2-Sugu", "Week2\Week2-Sugu.csproj", "{6181F8AA-D364-45CA-BEB2-60971BB60C6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week2-Vanus", "Week2-Vanus\Week2-Vanus.csproj", "{D7C9CAD7-99E9-4A7F-B5B0-C8A7F74C06CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{6181F8AA-D364-45CA-BEB2-60971BB60C6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6181F8AA-D364-45CA-BEB2-60971BB60C6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6181F8AA-D364-45CA-BEB2-60971BB60C6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7C9CAD7-99E9-4A7F-B5B0-C8A7F74C06CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7C9CAD7-99E9-4A7F-B5B0-C8A7F74C06CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7C9CAD7-99E9-4A7F-B5B0-C8A7F74C06CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7C9CAD7-99E9-4A7F-B5B0-C8A7F74C06CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
