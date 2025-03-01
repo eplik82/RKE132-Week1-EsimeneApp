@@ -1,8 +1,12 @@
 ﻿// Modulus - %
 
-int a = 24;
-int b = 8;
+using System.Globalization;
 
-int c = b % a;
+int a = 7;
+int b = 29;
+
+int c = a % b;
 
 Console.WriteLine(c);
+
+Console.WriteLine(DateTime.Now.ToString("tt", CultureInfo.InvariantCulture));

@@ -32,3 +32,5 @@ else if (weekDay == 1)
     Console.WriteLine("Täna on laupäev");
 }
 Console.WriteLine("Kena päeva!");
+
+String
