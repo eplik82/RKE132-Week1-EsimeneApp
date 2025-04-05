@@ -1,28 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Mis hinde saite?");
-char hinne = Convert.ToChar(Console.ReadLine().ToLower());
-
-switch (hinne)
+﻿for (int i = 1; i < 5; i++)
 {
-	case 'a':
-		Console.WriteLine("Suurepärane!");
-		break;
-    case 'b':
-        Console.WriteLine("Väga hea!");
-        break;
-    case 'c':
-        Console.WriteLine("Hea!");
-        break;
-    case 'd':
-        Console.WriteLine("Rahuldav");
-        break;
-    case 'e':
-        Console.WriteLine("Kasin");
-        break;
-    case 'f':
-        Console.WriteLine("Puudulik");
-        break;
-    default:
-		Console.WriteLine("Vale väärtus");
-        break;
+    Console.WriteLine("Don't worry, be happy :)");
 }
