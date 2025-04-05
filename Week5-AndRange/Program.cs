@@ -1,29 +1,11 @@
-﻿// And Range
+﻿Console.WriteLine("Enter the first letter of your first name:");
+char userLetter = Char.Parse(Console.ReadLine().ToLower());
 
-Console.WriteLine("Enter temperature: ");
-int temp = Int32.Parse(Console.ReadLine());
-
-if (temp >= 30)
+if (userLetter == 'a' || userLetter == 'e' || userLetter == 'i' || userLetter == 'o' || userLetter == 'u')
 {
-    Console.WriteLine("Boiling hot");
-}
-else if (temp < 30 && temp >= 20)
-{
-    Console.WriteLine("Hot.");
-}
-else if (temp < 20 && temp >= 15)
-{
-    Console.WriteLine("Warm.");
-}
-else if (temp < 15 && temp >= 10)
-{
-    Console.WriteLine("Chilly.");
-}
-else if (temp < 10 && temp >= 0)
-{
-    Console.WriteLine("Cold.");
+    Console.WriteLine("I can sing it.");
 }
 else
 {
-    Console.WriteLine("Freezing cold");
+    Console.WriteLine("There is no way I can sing it.");
 }
