@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "week8-EpicGame", "week8-Epi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "week9-Lists", "week9-Lists\week9-Lists.csproj", "{C1EDD356-5A65-4A2B-BFCB-463E6A718F00}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week13-SQLdb", "Week13-SQLdb\Week13-SQLdb.csproj", "{D3B09B6E-00F6-4603-8E74-DDC93BA34136}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{C1EDD356-5A65-4A2B-BFCB-463E6A718F00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1EDD356-5A65-4A2B-BFCB-463E6A718F00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1EDD356-5A65-4A2B-BFCB-463E6A718F00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3B09B6E-00F6-4603-8E74-DDC93BA34136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3B09B6E-00F6-4603-8E74-DDC93BA34136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3B09B6E-00F6-4603-8E74-DDC93BA34136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3B09B6E-00F6-4603-8E74-DDC93BA34136}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
