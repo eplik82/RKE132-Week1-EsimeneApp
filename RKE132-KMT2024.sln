@@ -57,6 +57,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week14-OOP", "Week14-OOP\We
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week15-OOPAndFiles", "Week15-OOPAndFiles\Week15-OOPAndFiles.csproj", "{0A556E13-5634-4F47-B57C-6F13E31775D1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week2", "Week2", "{40F43D7C-82C7-4103-B654-36A3658946E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -174,5 +176,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6181F8AA-D364-45CA-BEB2-60971BB60C6F} = {40F43D7C-82C7-4103-B654-36A3658946E3}
+		{D7C9CAD7-99E9-4A7F-B5B0-C8A7F74C06CD} = {40F43D7C-82C7-4103-B654-36A3658946E3}
 	EndGlobalSection
 EndGlobal

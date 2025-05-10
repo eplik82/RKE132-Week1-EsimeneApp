@@ -1,57 +1,44 @@
-﻿using System.Drawing;
-using System.Xml.Linq;
-
-Cat newCat = new Cat("Garfield", "ginger");
-Console.WriteLine($"{newCat.Name} wants a rub on its belly.");
-
-while (newCat.BellyFull > 0)
+﻿List<Gift> myGifts = new List<Gift>();
+string[] giftsFromFile = GetDataFromFile();
+foreach (string line in giftsFromFile)
 {
-    newCat.Sleep();
+    string[] tempArray = line.Split(new char[] { '/' }, StringSplitOptions.RemoveEmptyEntries);
+
+
+Gift newGift = new Gift(tempArray[0],tempArray[1]);
+    myGifts.Add(newGift);
 }
-newCat.Meow();
-newCat.ShowCatData();
-
-class Cat
-
+foreach (Gift giftFromList in myGifts)
 {
-    private string _name;
-    private string _color;
-    private int _bellyFull;
-public Cat(string name, string color)
-{
-    _name = name;
-    _color = color;
-    _bellyFull = 10;
-    Console.WriteLine($"A {color} cat {name} has been created.");
+    Console.WriteLine($" {giftFromList.Name} wants {giftFromList.Present} for Christmas.");
 }
 
 
-public string Name //getter
+static string[] GetDataFromFile()
 {
+    string filePath = @"C:\TKTK\frozen.txt";
+    string[] dataFromFile = File.ReadAllLines(filePath);
+    return dataFromFile;
+}
+class Gift
+{
+    string name;
+    string present;
+    public Gift(string _name, string _present)
+    {
 
-        get { return _name; }
-}
-    
- 
-public int BellyFull //getter
-{
+        name       = _name;
 
-        get { return _bellyFull; }
-}
-public void Sleep()
-{
-    _bellyFull--;
-    Console.WriteLine($"{_name} says: Z-z-Z-z-Z-z");
-}
-public void Meow()
-{
-    Console.WriteLine($"{_name} says: Meow!");
-}
-public void ShowCatData() //displays info about the cat object
-{
-    Console.WriteLine($"Name: {_name}");
-    Console.WriteLine($"Color: {_color}");
-    Console.WriteLine($"Level of hungriness: {_bellyFull}");
-}
+        present         = _present;
+    }
+    public string Name
+    {
 
+        get        { return name; }
+    }
+    public string Present
+    {
+
+        get        { return present; }
+    }
 }
